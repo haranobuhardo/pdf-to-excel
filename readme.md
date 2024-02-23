@@ -1,7 +1,7 @@
 # Simple Python PDF to Excel Extractor (with Flutter UI)
 
 ### How to use:
-1. Just run the `main.exe` file on `release` list
+1. Just run the `main.exe` file on `release`
 
 ### How to run the code:
 1. Install `poetry` to your machine
