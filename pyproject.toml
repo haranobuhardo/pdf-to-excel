@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flet-pdf-table-extractor"
+version = "0.1.0"
+description = ""
+authors = ["HARDO TRI WAHYU SEPTIADI <hardo.triwahyu@pci.co.id>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.20.2"
+openpyxl = "^3.1.2"
+pdfplumber = "^0.10.4"
+asyncio = "^3.4.3"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = {version="^6.4.0", python = ">=3.10,<3.13"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
